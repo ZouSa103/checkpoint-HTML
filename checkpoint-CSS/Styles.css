@@ -1,0 +1,44 @@
+/* Change the font to the chosen Font (Roboto) */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1e2ed; /* Couleur de fond */
+  color: #333; /* Couleur du texte */
+  line-height: 1.6; /* Espacement entre les lignes */
+  padding: 20px; /* Marge intérieure pour l'espacement du contenu */
+}
+
+/* Style de la barre supérieure */
+.top-bar {
+  background-color: #bacad9; /* Couleur de fond de la barre supérieure */
+  padding: 10px; /* Espacement intérieur de la barre supérieure */
+}
+
+/* Style de la barre de navigation */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style des éléments de la barre de navigation (les boutons) */
+.nav-item {
+  color: #fff; /* Couleur du texte des boutons */
+  margin: 8 10px; /* Espacement horizontal entre les boutons */
+  padding: 8px 16px; /* Espacement interne des boutons */
+  border: 3px solid #f37171; /* Bordure autour des boutons */
+  border-radius: 4px; /* Coins arrondis des boutons */
+  transition: background-color 0.8s; /* Transition au survol */
+}
+
+/* Style des boutons au survol */
+.nav-item:hover {
+  background-color: #d398ba; /* Couleur de fond des boutons au survol */
+  cursor: pointer; /* Changer le curseur de la souris au survol */
+}
+
+/* Style des icônes de LinkedIn */
+.nav-item i {
+  font-size: 18px; /* Taille de l'icône */
+  margin-right: 5px; /* Espacement entre l'icône et le texte du lien */
+}
+
